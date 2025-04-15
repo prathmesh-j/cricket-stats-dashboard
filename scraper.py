@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
 import re
+import plotly.express as px
 import os
 
 # Setup headless Chrome
