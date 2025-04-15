@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
+st.set_page_config("Huskies Player Dashboard")
+
 # Load the data
 @st.cache_data
 def load_batting_data():
@@ -33,7 +35,6 @@ batting_df = load_batting_data()
 bowling_df = load_bowling_data()
 
 # Page setup
-st.set_page_config("Huskies Player Dashboard", layout="wide")
 st.title("🏏 Huskies Cricket Club - Player Performance Dashboard")
 
 # === Tabs for Batting and Bowling ===
