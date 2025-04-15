@@ -15,13 +15,13 @@ The app helps team members, analysts, and fans understand player form, strengths
 🛠️ Prerequisites
 Ensure the following are installed:
 - Python 3.8+
-- pip (Python package manager)
+- pipx
 
 ### 📦 1. Install Required Packages
 
 Open your terminal/command prompt and run:
 ```bash
-pip install streamlit pandas plotly
+pipx install streamlit pandas plotly
 ```
 
 ### 📁 2. Prepare Your Files
